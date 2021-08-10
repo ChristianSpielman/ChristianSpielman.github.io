@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel= "stylesheet" href="./css/main.css">
+    
+    <title>Portfolio</title>
+</head>
+<body>
+<!--Navigation-->
+    <nav class="navbar navbar-expand-lg bg-dark"> 
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#aboutMe">About Me</a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+<!--Header-->
+    <div class="header">
+        <h1 class="name">
+            Christian Spielman
+        </h1>
+    </div>
+<!--About me-->
+<div id="body">
+    <section id="aboutMe">
+        <h1 style="text-align: center; padding-top: 50px;">About Me</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, deleniti minus neque ullam explicabo atque dolores beatae aspernatur repellendus ipsum fugiat, vel sit sint provident odio quae. Explicabo, sint recusandae?</p>
+                    </div>
+                    <div class="col-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis, exercitationem et suscipit cumque quisquam aliquam explicabo delectus magnam porro est. Vitae aliquam, placeat modi ab incidunt quod consequuntur saepe!</p>
+                    </div>
+                    <div class="col-4"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quam itaque voluptas doloribus voluptate. Quo neque illo illum, quae quam totam ut iusto voluptatibus iste cupiditate praesentium laboriosam hic quisquam, laborum explicabo saepe animi consequuntur alias inventore accusamus ullam repellendus. Quod mollitia beatae exercitationem ipsam laborum deleniti animi placeat laudantium.</p>
+                    </div>
+                    <hr/>
+                </div>
+            </div>
+        </section>
+        
+<!--Projects-->
+    <section id="projects">
+        <h1 style="text-align: center; padding-top: 50px;">Projects</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+                </div>
+            <div class="col">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <hr/>
+<!--Contact-->
+<h1 style="text-align: center; padding-top: 50px;">Contact</h1>
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <h4 style="text-align: center; padding-top: 25px;">Email Me</h3>
+            <br/>
+          <section id="contact">
+              <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mjvjaqyd" method="post">
+                  <fieldset id="fs-frm-inputs">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                    <label for="message">Message</label>
+                    <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                  </fieldset>
+                  <input type="submit" value="Submit">
+                </form>
+              </section>
+      </div>
+<div class="col">
+    <h4 style="text-align: center; padding-top: 25px;">Download My Resume</h3>
+        <br/>
+            <form method="get" action="./assets/Christian Spielman-Resume PDF.pdf">
+                <button type="submit" class="btn btn-outline-light btn-lg">Download</button>
+                    </form>
+      </div>
+    </div>
+</div>
+
+<!--Footer-->
+<div class="footer">
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"></script>
+</body>
+</html>

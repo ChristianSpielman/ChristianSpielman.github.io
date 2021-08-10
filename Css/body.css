@@ -1,0 +1,12 @@
+#body{
+    background-image: linear-gradient(to top right, rgb(78, 73, 73), rgb(203, 203, 214));
+    /* background: url("../assets/mitchell-luo-5FH3MecTtSg-unsplash.jpg"); */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: Quicksand;
+}
+#contact{
+    margin: 0 auto; 
+    width:250px;
+}
