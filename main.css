@@ -1,3 +1,16 @@
+.header{
+    background: url("../assets/benjamin-voros-phIFdC6lA4E-unsplash.jpg");
+    background-size: cover;
+    height: 94vh;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Quicksand;
+}
+.name{
+    padding-top: 50px;
+}
+
 #body{
     background-image: linear-gradient(to top right, rgb(78, 73, 73), rgb(203, 203, 214));
     /* background: url("../assets/mitchell-luo-5FH3MecTtSg-unsplash.jpg"); */
@@ -9,4 +22,9 @@
 #contact{
     margin: 0 auto; 
     width:250px;
+}
+
+.footer{
+    background-color: black;
+    height: 100px
 }
