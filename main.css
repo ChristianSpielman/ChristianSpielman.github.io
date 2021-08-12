@@ -10,6 +10,9 @@
 .name{
     padding-top: 50px;
 }
+#projects{
+    padding: 50px;
+}
 
 #body{
     background-image: linear-gradient(to top right, rgb(46, 44, 44), rgb(166, 166, 170));
@@ -18,14 +21,15 @@
     text-align: center;
     font-family: Quicksand;
 }
-.contact{
-    margin: 0 auto; 
-    width:250px;
-    padding-bottom: 50px;
+.form-control{
+    margin: 10px;
+}
+
+#contact{
+    padding: 50px;
 }
 
 .footer{
     background-color: black;
-    height: 150px;
-    padding-top: 35px;  
+    padding: 35px;  
 }
