@@ -1,7 +1,7 @@
 .header{
-    background: url("../assets/benjamin-voros-phIFdC6lA4E-unsplash.jpg");
+    background: url("./assets/benjamin-voros-phIFdC6lA4E-unsplash.jpg");
     background-size: cover;
-    height: 94vh;
+    height: 100vh;
     color: white;
     font-weight: bolder;
     text-align: center;
@@ -12,19 +12,20 @@
 }
 
 #body{
-    background-image: linear-gradient(to top right, rgb(78, 73, 73), rgb(203, 203, 214));
-    /* background: url("../assets/mitchell-luo-5FH3MecTtSg-unsplash.jpg"); */
+    background-image: linear-gradient(to top right, rgb(46, 44, 44), rgb(166, 166, 170));
     background-size: cover;
     color: white;
     text-align: center;
     font-family: Quicksand;
 }
-#contact{
+.contact{
     margin: 0 auto; 
     width:250px;
+    padding-bottom: 50px;
 }
 
 .footer{
     background-color: black;
-    height: 100px
+    height: 150px;
+    padding-top: 35px;  
 }
